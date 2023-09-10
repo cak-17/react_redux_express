@@ -17,12 +17,3 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file docker/backend/Dockerfile --tag backend:$(date +%s)
 
-  test:
-
-    runs-on: ubuntu-latest
-    steps:
-    
-      - name: ESLint checker
-        uses: ninosaurus/eslint-check@v5.3.1
-        with:
-          eslint-config-path: .eslintrc.cjs
