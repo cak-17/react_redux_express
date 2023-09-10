@@ -10,7 +10,7 @@ A little test enviroment with:
 Just make sure you have Docker and docker-compose installed
 
 ```bash
-    make build
+    make up
     ## to prepare the docker containers
     make start
     ## to start the docker containers
