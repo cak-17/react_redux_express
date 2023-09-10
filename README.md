@@ -1,5 +1,8 @@
 # React/Redux/Express
 
+[![Docker Image CI](https://github.com/cak-17/react_redux_express/actions/workflows/backend.yml/badge.svg)](https://github.com/cak-17/react_redux_express/actions/workflows/backend.yml)
+
+
 A little test enviroment with:
 
 - backend: ExpressJS,
