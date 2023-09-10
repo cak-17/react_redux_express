@@ -1,8 +1,19 @@
-# React + Vite
+# React/Redux/Express
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A little test enviroment with:
 
-Currently, two official plugins are available:
+- backend: ExpressJS,
+- frontend: ReactJS + Vite / ReduxJS/Toolkit React-Redux
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+Just make sure you have Docker and docker-compose installed
+
+```bash
+    make build
+    ## to prepare the docker containers
+    make start
+    ## to start the docker containers
+```
+
+for more info use ```make help```
